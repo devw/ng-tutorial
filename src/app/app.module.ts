@@ -16,7 +16,8 @@ import { CartComponent } from "./cart/cart.component";
         ReactiveFormsModule,
         RouterModule.forRoot([
             { path: "", component: ProductListComponent },
-            { path: "products/:id", component: ProductDetailsComponent }
+            { path: "products/:id", component: ProductDetailsComponent },
+            { path: "cart", component: CartComponent }
         ])
     ],
     declarations: [
